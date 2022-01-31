@@ -246,7 +246,15 @@
 	.site-branding {
 	    text-align: center;
 	}
-	#site-header-menu .site-navigation { height: 80px; }
+
+	.site-branding .home-link {
+		max-height: 80px;
+	}
+	.site-branding .home-link .img-center {
+		max-height: 70px;
+	}
+
+	#site-header-menu .site-navigation { height: 100px; }
 
 	.ttm-header-style-02 .site-branding{
 		position: absolute;
@@ -314,7 +322,7 @@
 	.ttm-row.broken-section-1{ padding: 0 0 !important; }
 	.ttm-row.broken-section-2 { padding: 0 0 !important; }
 	.ttm-row.client-section { padding: 10px 0 !important; }
-	.ttm-row.features-section { padding: 40px 0 !important; }
+	.ttm-row.features-section { padding: 20px 0 !important; }
 	.ttm-row.portfolio-section { padding: 60px 0 30px !important; }
 	.ttm-row.client-section-2{ padding: 0 0!important; }
 	.ttm-row.broken-section { padding: 0 0 !important; }
@@ -474,7 +482,7 @@
 
 
 	.featured-icon-box.icon-align-before-content.style5 {
-	    padding: 20px 0 25px;
+	    padding: 10px 0 15px;
 	}
 	.featured-icon-box.icon-align-before-content.style5 .featured-icon:before, 
 	.featured-icon-box.icon-align-before-content.style5 .featured-icon:after {
