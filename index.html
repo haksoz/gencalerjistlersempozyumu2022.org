@@ -26,7 +26,7 @@
     <link href="revolution/css/rs6.css" rel="stylesheet" type="text/css"><!-- prettyphoto -->
     <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"><!-- shortcodes -->
     <link href="css/shortcodes.css" rel="stylesheet" type="text/css"><!-- main -->
-    <link href="css/main.css?v=4" rel="stylesheet" type="text/css"><!-- main -->
+    <link href="css/main.css?v=5" rel="stylesheet" type="text/css"><!-- main -->
     <link href="css/megamenu.css" rel="stylesheet" type="text/css"><!-- responsive -->
     <link href="css/responsive.css?v=6" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
@@ -79,7 +79,8 @@
                                             <li><a aria-current="page" href="#genelbilgiler">Genel Bilgiler</a></li>
                                             <li><a aria-current="page" href="#kayit">Kayıt & Konaklama</a></li>
                                             <li><a aria-current="page" href="#bilimselprogram">Bilimsel Program</a></li>
-                                            <li><a aria-current="page" href="#bildiri">Bildiri Gönderimi</a></li>
+                                            <li><a style="background: red; padding: 25px 10px 25px 10px;" target="_blank"
+                                                   href="http://e-certificate.arcadiastech.com/gencalerjistler2022/KatilimciSertifika">Sertifika</a></li>
                                             <li><a aria-current="page" href="#iletisim">İletişim</a></li>
                                         </ul>
                                     </nav>
@@ -1091,37 +1092,43 @@
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
 
     <!-- Javascript end-->
-<!--    <div class="modal micromodal-slide" id="modal-1" aria-hidden="false">-->
-<!--        <div class="modal__overlay" tabindex="-1" data-micromodal-close>-->
-<!--            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" style="">-->
-<!--                <header class="modal__header" style="height: 20px;">-->
-<!--                    <h2 class="modal__title" id="modal-1-title">-->
-<!--                    </h2>-->
-<!--                    <button class="modal__close" style="padding:0px 5px;" aria-label="Close modal" data-micromodal-close></button>-->
-<!--                </header>-->
-<!--                <main class="modal__content" id="modal-1-content">-->
-<!--                    <img src="doc/poup.jpeg" style="max-height: 80vh;"alt="">-->
-<!--                </main>-->
-<!--                <footer class="modal__footer text-center">-->
-<!--                </footer>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>-->
-<!--    <script>-->
-<!--        MicroModal.show('modal-1',-->
-<!--            {-->
-<!--                onShow: modal => console.info(`${modal.id} is shown`), // [1]-->
-<!--                onClose: modal => $('#modal-1-content').html(''), // [2]-->
-<!--                openClass: 'is-open', // [5]-->
-<!--                disableScroll: true, // [6]-->
-<!--                disableFocus: false, // [7]-->
-<!--                awaitOpenAnimation: false, // [8]-->
-<!--                awaitCloseAnimation: false, // [9]-->
-<!--                debugMode: true // [10]-->
-<!--            }-->
-<!--        );-->
-<!--    </script>-->
-<!--    <link rel="stylesheet" href="css/modal.css?v=2">-->
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="false">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" style="">
+                <header class="modal__header" style="height: 20px;">
+                    <h2 class="modal__title" id="modal-1-title">
+                    </h2>
+                    <button class="modal__close" style="padding:0px 5px;" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <main class="modal__content" id="modal-1-content">
+                    <div class="d-flex flex-column">
+                        <a href="http://e-certificate.arcadiastech.com/gencalerjistler2022/KatilimciSertifika" target="_blank">
+                            <img src="doc/popup-logo.JPG" style="max-height: 80vh; width: 100%;"alt="">
+                        </a>
+                        <a class="btn px-4 py-2 popup-button"
+                           href="http://e-certificate.arcadiastech.com/gencalerjistler2022/KatilimciSertifika" target="_blank">Katılım Belgesi ve Sertifika Almak İçin <span style="color: red;">Tıklayınız</span></a>
+                    </div>
+                </main>
+                <footer class="modal__footer text-center">
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script>
+        MicroModal.show('modal-1',
+            {
+                onShow: modal => console.info(`${modal.id} is shown`), // [1]
+                onClose: modal => $('#modal-1-content').html(''), // [2]
+                openClass: 'is-open', // [5]
+                disableScroll: true, // [6]
+                disableFocus: false, // [7]
+                awaitOpenAnimation: false, // [8]
+                awaitCloseAnimation: false, // [9]
+                debugMode: true // [10]
+            }
+        );
+    </script>
+    <link rel="stylesheet" href="css/modal.css?v=2">
 </body>
 </html>

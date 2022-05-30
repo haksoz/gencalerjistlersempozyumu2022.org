@@ -2411,3 +2411,10 @@ table thead tr th{background-color: #3368c6;
   text-align: center;
 color: white;}
   
+.popup-button{
+    color:#FFFFFF;
+    background: #151843;
+    border-radius: 0;
+    font-weight:bold;
+    font-size:20px;
+}
